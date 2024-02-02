@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rolar Dado!</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Role o Dado</h1><br>
+        <p>
+            Instruções:
+            Use as setinhas para cima e para baixo ao lado do número para aumentar e diminuir a quantidade de dados que deseja rolar.
+        </p><br>
+        <label>Nº de dados:</label>
+        <input type="number" id="numDado" value="1" min="1">
+        <button onclick="btnRolar()">Rolar</button>
+        <div id="dadoResultado"></div>
+        <div id="dadoImg"></div>
+    </div>
+
+    <footer id="rodape">Projeto feito por Filipe Andrade</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
