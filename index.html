@@ -1,27 +1,26 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Rolar Dado!</title>
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
     <div id="container">
-        <h1>Role o Dado</h1><br>
-        <p>
-            Instruções:
-            Use as setinhas para cima e para baixo ao lado do número para aumentar e diminuir a quantidade de dados que deseja rolar.
-        </p><br>
-        <label>Nº de dados:</label>
-        <input type="number" id="numDado" value="1" min="1">
-        <button onclick="btnRolar()">Rolar</button>
-        <div id="dadoResultado"></div>
-        <div id="dadoImg"></div>
+      <p>
+        Instructions: Use the arrow on the right side of the text area(numbers)
+        to increase or decrease the amout of dices you'd like to roll
+      </p>
+      <br />
+      <label>Nº of dices:</label>
+      <input type="number" id="numDice" value="1" min="1" />
+      <button onclick="btnRoll()">Roll</button>
+      <div id="diceResult"></div>
+      <div id="diceImg"></div>
     </div>
-
-    <footer id="rodape">Projeto feito por Filipe Andrade</footer>
+    <footer>Project made by Filipe Andrade 🛸</footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

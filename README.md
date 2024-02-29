@@ -1,2 +1,2 @@
-# Projeto dos Dados
-Projeto de site onde é possível rolar 1 ou mais dados de 6 faces que gera números aleatórios toda para toda vez que rolar.
+# Roll Dice Project
+Website project where it is possible to roll multiple 6-sided dice that generate random numbers every time you roll.

@@ -1,16 +1,16 @@
-function btnRolar(){
-  const numDado = document.getElementById("numDado").value;
-  const dadoResultado = document.getElementById("dadoResultado");
-  const dadoImg = document.getElementById("dadoImg");
-  const valores = [];
-  const imagens = [];
+function btnRoll(params) {
+  const numDice = document.getElementById("numDice").value;
+  const diceResult = document.getElementById("diceResult");
+  const diceImg = document.getElementById("diceImg");
+  const values = [];
+  const images = [];
 
-  for (let i = 0; i < numDado; i++) {
-    const valor = Math.floor(Math.random() * 6) + 1;
-    valores.push(valor);
-    imagens.push(`<img src="img/${valor}.png" alt="Dado ${valor}">`);
+  for (let i = 0; i < numDice; i++) {
+    const value = Math.floor(Math.random() * 6) + 1;
+    values.push(value);
+    images.push(`<img src="img/${value}.png" alt="Dice ${value}">`);
   }
 
-  dadoResultado.textContent = `Dados: ${valores.join(', ')}`;
-  dadoImg.innerHTML = imagens.join('');
-};
+  diceResult.textContent = `Dice: ${values.join(", ")}`;
+  diceImg.innerHTML = images.join("");
+}
